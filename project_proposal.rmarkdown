@@ -11,6 +11,9 @@ execute:
   freeze: true
 ---
 
+
+
+
 test
 
 ## PP1. Motivation
@@ -35,6 +38,9 @@ We take inspiration from an earlier example done by senior Megan Sim (2021), who
 
 ## PP5. Early prototypes or storyboards
 
+
+
+
 ```{r}
 pacman::p_load(sf, tmap, tidyverse)
 malaysia_adm2 <- st_read(dsn = "data/geospatial/myadm2", layer = "geoBoundaries-MYS-ADM2") %>% st_transform(4326)
@@ -45,6 +51,9 @@ tm_shape(malaysia_adm2) + tm_polygons()
 tm_shape(malaysia_adm3) + tm_polygons()
 tmap_mode('plot')
 ```
+
+
+
 
 ## References
 
