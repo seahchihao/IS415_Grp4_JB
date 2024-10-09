@@ -11,8 +11,6 @@ execute:
   freeze: true
 ---
 
-test
-
 ## PP1. Motivation
 
 Of late, housing prices in Singapore have been flying through the roof. Because of this, many Singaporeans who yearn for a private space of their own without breaking the bank have been snapping up properties in neighbouring [Johor Bahru, Malaysia](https://en.wikipedia.org/wiki/Johor_Bahru). How high will this drive property prices in the city, perhaps best known among Singaporeans as a cheap and easily accessible weekend shopping getaway? Compared to Singapore, what factors influence the JB property market? Where is each type of housing, catered to different income levels, clustered? And does it matter that JB's suburbs lack reliable access to public transport? This project aims to find the answers to these lingering questions and more, through a geospatial analysis on the property market of Johor Bahru and its emerging next-door neighbour, [Iskandar Puteri](https://en.wikipedia.org/wiki/Iskandar_Puteri)
