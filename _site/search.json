@@ -11,21 +11,21 @@
     "href": "project_proposal.html",
     "title": "JB: The New Frontier?",
     "section": "",
-    "text": "Of late, housing prices in Singapore have been flying through the roof. Because of this, many Singaporeans who yearn for a private space of their own without breaking the bank have been snapping up properties in neighbouring Johor Bahru, Malaysia. Will this bring in m"
+    "text": "Of late, housing prices in Singapore have been flying through the roof. Because of this, many Singaporeans who yearn for a private space of their own without breaking the bank have been snapping up properties in neighbouring Johor Bahru, Malaysia. How high will this drive property prices in the city, perhaps best known among Singaporeans as a cheap and easily accessible weekend shopping getaway? Compared to Singapore, what factors influence the JB property market? Where is each type of housing, catered to different income levels, clustered? And does it matter that JB’s suburbs lack reliable access to public transport? This project aims to find the answers to these lingering questions and more, through a geospatial analysis on the property market of Johor Bahru and its emerging next-door neighbour, Iskandar Puteri"
   },
   {
     "objectID": "project_proposal.html#pp1.-motivation",
     "href": "project_proposal.html#pp1.-motivation",
     "title": "JB: The New Frontier?",
     "section": "",
-    "text": "Of late, housing prices in Singapore have been flying through the roof. Because of this, many Singaporeans who yearn for a private space of their own without breaking the bank have been snapping up properties in neighbouring Johor Bahru, Malaysia. Will this bring in m"
+    "text": "Of late, housing prices in Singapore have been flying through the roof. Because of this, many Singaporeans who yearn for a private space of their own without breaking the bank have been snapping up properties in neighbouring Johor Bahru, Malaysia. How high will this drive property prices in the city, perhaps best known among Singaporeans as a cheap and easily accessible weekend shopping getaway? Compared to Singapore, what factors influence the JB property market? Where is each type of housing, catered to different income levels, clustered? And does it matter that JB’s suburbs lack reliable access to public transport? This project aims to find the answers to these lingering questions and more, through a geospatial analysis on the property market of Johor Bahru and its emerging next-door neighbour, Iskandar Puteri"
   },
   {
     "objectID": "project_proposal.html#pp2.-issues-the-project-will-address",
     "href": "project_proposal.html#pp2.-issues-the-project-will-address",
     "title": "JB: The New Frontier?",
     "section": "PP2. Issues the project will address",
-    "text": "PP2. Issues the project will address\nThe project will make it easy for interested researchers and casual observers, especially those from Singapore, to understand the factors influencing the property market in Johor Bahru."
+    "text": "PP2. Issues the project will address\nThe project will make it easy for interested researchers and casual observers, especially those from Singapore, to understand the factors influencing the property market in Johor Bahru and Iskandar Puteri."
   },
   {
     "objectID": "project_proposal.html#pp3.-relevant-related-work",
@@ -47,5 +47,26 @@
     "title": "JB: The New Frontier?",
     "section": "PP5. Early prototypes or storyboards",
     "text": "PP5. Early prototypes or storyboards\n\npacman::p_load(sf, tmap, tidyverse)\nmalaysia_adm2 &lt;- st_read(dsn = \"data/geospatial/myadm2\", layer = \"geoBoundaries-MYS-ADM2\") %&gt;% st_transform(4326)\n\nReading layer `geoBoundaries-MYS-ADM2' from data source \n  `/Users/kendricktty/Gits/smu_cs/is415_project/data/geospatial/myadm2' \n  using driver `ESRI Shapefile'\nSimple feature collection with 159 features and 5 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 99.63877 ymin: 0.8553638 xmax: 119.2683 ymax: 7.362467\nGeodetic CRS:  WGS 84\n\nmalaysia_adm3 &lt;- st_read(dsn = \"data/geospatial/myadm3\", layer = \"geoBoundaries-MYS-ADM3\") %&gt;% st_transform(4326)\n\nReading layer `geoBoundaries-MYS-ADM3' from data source \n  `/Users/kendricktty/Gits/smu_cs/is415_project/data/geospatial/myadm3' \n  using driver `ESRI Shapefile'\nSimple feature collection with 1859 features and 5 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 98.93646 ymin: 0.8538234 xmax: 115.6782 ymax: 6.726112\nGeodetic CRS:  WGS 84\n\ntmap_mode('view')\n\ntmap mode set to interactive viewing\n\ntmap_options(check.and.fix = TRUE)\ntm_shape(malaysia_adm2) + tm_polygons()\n\nWarning: The shape malaysia_adm2 is invalid. See sf::st_is_valid\n\n\n\n\n\ntm_shape(malaysia_adm3) + tm_polygons()\n\n\n\n\ntmap_mode('plot')\n\ntmap mode set to plotting"
+  },
+  {
+    "objectID": "project_proposal.html#pp3.-approach-team-plans-to-take-to-solve-the-problem",
+    "href": "project_proposal.html#pp3.-approach-team-plans-to-take-to-solve-the-problem",
+    "title": "JB: The New Frontier?",
+    "section": "PP3. Approach team plans to take to solve the problem",
+    "text": "PP3. Approach team plans to take to solve the problem\nThe proposed outline of the project will be as follows:\n\nVanilla and Emerging Hot/cold spot analysis on average/median property values for each Mukim in Johor Bahru and Iskandar Puteri (Pulai)\nKDE on selected amenity types (e.g. schools, shopping malls, major transport nodes, commercial districts, industrial districts) in Johor Bahru using data scraped from OpenStreetMap\nBuilding a hedonic pricing model for residential properties in Johor Bahru"
+  },
+  {
+    "objectID": "project_proposal.html#pp4.-relevant-related-work",
+    "href": "project_proposal.html#pp4.-relevant-related-work",
+    "title": "JB: The New Frontier?",
+    "section": "PP4. Relevant related work",
+    "text": "PP4. Relevant related work\nWe take inspiration from an earlier example done by senior Megan Sim (2021), who created a similar hedonic pricing model for the public housing market in Singapore in 2021."
+  },
+  {
+    "objectID": "project_proposal.html#references",
+    "href": "project_proposal.html#references",
+    "title": "JB: The New Frontier?",
+    "section": "References",
+    "text": "References\nSim, M. (2021, October 2025). Take-Home Exercise 3: Hedonic Pricing Models for Resale Prices of Public Housing in Singapore. https://is415-msty.netlify.app/posts/2021-10-25-take-home-exercise-3/"
   }
 ]
