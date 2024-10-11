@@ -46,7 +46,7 @@
     "href": "project_proposal.html#pp5.-early-prototypes-or-storyboards",
     "title": "JB: The New Frontier?",
     "section": "PP5. Early prototypes or storyboards",
-    "text": "PP5. Early prototypes or storyboards\n\npacman::p_load(sf, tmap, tidyverse)\nmalaysia_adm2 &lt;- st_read(dsn = \"data/geospatial/myadm2\", layer = \"geoBoundaries-MYS-ADM2\") %&gt;% st_transform(4326)\n\nReading layer `geoBoundaries-MYS-ADM2' from data source \n  `/Users/kendricktty/Gits/smu_cs/is415_project/data/geospatial/myadm2' \n  using driver `ESRI Shapefile'\nSimple feature collection with 159 features and 5 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 99.63877 ymin: 0.8553638 xmax: 119.2683 ymax: 7.362467\nGeodetic CRS:  WGS 84\n\nmalaysia_adm3 &lt;- st_read(dsn = \"data/geospatial/myadm3\", layer = \"geoBoundaries-MYS-ADM3\") %&gt;% st_transform(4326)\n\nReading layer `geoBoundaries-MYS-ADM3' from data source \n  `/Users/kendricktty/Gits/smu_cs/is415_project/data/geospatial/myadm3' \n  using driver `ESRI Shapefile'\nSimple feature collection with 1859 features and 5 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 98.93646 ymin: 0.8538234 xmax: 115.6782 ymax: 6.726112\nGeodetic CRS:  WGS 84\n\ntmap_mode('view')\n\ntmap mode set to interactive viewing\n\ntmap_options(check.and.fix = TRUE)\ntm_shape(malaysia_adm2) + tm_polygons()\n\nWarning: The shape malaysia_adm2 is invalid. See sf::st_is_valid\n\n\n\n\n\ntm_shape(malaysia_adm3) + tm_polygons()\n\n\n\n\ntmap_mode('plot')\n\ntmap mode set to plotting"
+    "text": "PP5. Early prototypes or storyboards\nHome page of application\n\n\n\n\n\nA user guide page to show usage examples and analysis results, providing an overview of the functionalities of the app.\n\n\n\n\n\nA tab to navigate to the main fuctionalities, which includes:\n\nKDE of amenities in study area\nHot/Cold spot analysis (to be determined)\nHedonic Pricing Model (to be determined)\n\n\n\n\n\n\n\npacman::p_load(sf, tmap, tidyverse)\nmalaysia_adm2 &lt;- st_read(dsn = \"data/geospatial/myadm2\", layer = \"geoBoundaries-MYS-ADM2\") %&gt;% st_transform(4326)\nmalaysia_adm3 &lt;- st_read(dsn = \"data/geospatial/myadm3\", layer = \"geoBoundaries-MYS-ADM3\") %&gt;% st_transform(4326)\ntmap_mode('view')\ntmap_options(check.and.fix = TRUE)\ntm_shape(malaysia_adm2) + tm_polygons()\ntm_shape(malaysia_adm3) + tm_polygons()\ntmap_mode('plot')"
   },
   {
     "objectID": "project_proposal.html#pp3.-approach-team-plans-to-take-to-solve-the-problem",
@@ -68,5 +68,12 @@
     "title": "JB: The New Frontier?",
     "section": "References",
     "text": "References\nSim, M. (2021, October 2025). Take-Home Exercise 3: Hedonic Pricing Models for Resale Prices of Public Housing in Singapore. https://is415-msty.netlify.app/posts/2021-10-25-take-home-exercise-3/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

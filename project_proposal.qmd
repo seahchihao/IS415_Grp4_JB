@@ -23,9 +23,9 @@ The project will make it easy for interested researchers and casual observers, e
 
 The proposed outline of the project will be as follows:
 
-1. Vanilla and Emerging Hot/cold spot analysis on average/median property values for each *Mukim* in Johor Bahru and Iskandar Puteri (Pulai)
-2. KDE on selected amenity types (e.g. schools, shopping malls, major transport nodes, commercial districts, industrial districts) in Johor Bahru using data scraped from OpenStreetMap
-3. Building a hedonic pricing model for residential properties in Johor Bahru
+1.  Vanilla and Emerging Hot/cold spot analysis on average/median property values for each *Mukim* in Johor Bahru and Iskandar Puteri (Pulai)
+2.  KDE on selected amenity types (e.g. schools, shopping malls, major transport nodes, commercial districts, industrial districts) in Johor Bahru using data scraped from OpenStreetMap
+3.  Building a hedonic pricing model for residential properties in Johor Bahru
 
 ## PP4. Relevant related work
 
@@ -33,7 +33,25 @@ We take inspiration from an earlier example done by senior Megan Sim (2021), who
 
 ## PP5. Early prototypes or storyboards
 
+Home page of application
+
+![](images/storyboard_homePage.png){fig-align="center"}
+
+A user guide page to show usage examples and analysis results, providing an overview of the functionalities of the app.
+
+![](images/storyboard_userGuide.png){fig-align="center"}
+
+A tab to navigate to the main fuctionalities, which includes:
+
+1.  KDE of amenities in study area
+2.  Hot/Cold spot analysis (to be determined)
+3.  Hedonic Pricing Model (to be determined)
+
+![](images/storyboard_functionality1.png){fig-align="center"}
+
 ```{r}
+#| eval: false
+
 pacman::p_load(sf, tmap, tidyverse)
 malaysia_adm2 <- st_read(dsn = "data/geospatial/myadm2", layer = "geoBoundaries-MYS-ADM2") %>% st_transform(4326)
 malaysia_adm3 <- st_read(dsn = "data/geospatial/myadm3", layer = "geoBoundaries-MYS-ADM3") %>% st_transform(4326)
@@ -46,4 +64,4 @@ tmap_mode('plot')
 
 ## References
 
-Sim, M. (2021, October 2025). Take-Home Exercise 3: Hedonic Pricing Models for Resale Prices of Public Housing in Singapore. [https://is415-msty.netlify.app/posts/2021-10-25-take-home-exercise-3/](https://is415-msty.netlify.app/posts/2021-10-25-take-home-exercise-3/)
+Sim, M. (2021, October 2025). Take-Home Exercise 3: Hedonic Pricing Models for Resale Prices of Public Housing in Singapore. <https://is415-msty.netlify.app/posts/2021-10-25-take-home-exercise-3/>
