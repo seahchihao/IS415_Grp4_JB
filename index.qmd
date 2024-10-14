@@ -1,11 +1,8 @@
 ---
-title: "is415_project"
+title: "JB: The New Frontier?"
 ---
 
-This is a Quarto website.
+This is IS415 AY24-25T1 Group 4 Project website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Site is still under construction, do be patient...
 
-```{r}
-1 + 1
-```
