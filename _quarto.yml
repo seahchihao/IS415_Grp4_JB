@@ -2,8 +2,10 @@ project:
   type: website
 
 website:
-  title: "JB: The New Frontier?"
+  favicon: "/images/logo.png"
   navbar:
+    logo: "/images/logo.png"
+    title: "JB: The New Frontier?" 
     left:
       - href: index.qmd
         text: Home
@@ -13,8 +15,10 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: flatly
+      dark: darkly
+    linkcolor: rgb(0, 153, 255)
     toc: true
 
 
