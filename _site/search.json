@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "JB: The New Frontier?",
+    "title": "IS415 Group 4",
     "section": "",
-    "text": "This is IS415 AY24-25T1 Group 4 Project website.\nSite is still under construction, do be patient…"
+    "text": "Welcome to “JB: The New Frontier?”\n\n\nOur project aims to answer the following questions:\n\nWhat factors influence the real estate market in Johor Bahru?\nHow are different housing types clustered?\n\n\n\nJohor Bahru (JB) is generally seen as an accessible and low-cost shopping and dining haven for neighbouring Singaporeans. With housing prices skyrocketing of late, many Singaporeans have even turned to JB to seek cheaper housing, driving the local economy but also bringing with them unprecedented inflationary pressures.\n\n\n\n\nThe proposed application is a geospatial analytics tool designed to democratise access to geospatial data and insights about the real estate market in Johor Bahru (JB). Here’s a summary of its functionalities:\n\n\n\n\n\n\n\nEmploys point plotting and hexagonal grid density calculations to visualise property clusters.\nMaps proximity factors, showing spatial relationships between amenities and property values.\n\n\n\n\n\nCalculates spatial autocorrelation using Moran’s I, Geary’s C, and LISA to identify high-demand (hot) and low-demand (cold) regions.\nHighlights Iskandar Puteri as a hot spot and Pasir Gudang as a cold spot.\n\n\n\n\n\nPerforms regression analysis to determine factors influencing property prices, using geographically weighted regression (GWR).\nAllows users to explore relationships between property prices and amenities interactively.\n\n\n\n\n\n\nTo enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru."
   },
   {
     "objectID": "project_proposal.html",
@@ -75,5 +75,33 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#context",
+    "href": "index.html#context",
+    "title": "IS415 Group 4",
+    "section": "",
+    "text": "Johor Bahru (JB) is generally seen as an accessible and low-cost shopping and dining haven for neighbouring Singaporeans. With housing prices skyrocketing of late, many Singaporeans have even turned to JB to seek cheaper housing, driving the local economy but also bringing with them unprecedented inflationary pressures."
+  },
+  {
+    "objectID": "index.html#summary-of-proposed-application",
+    "href": "index.html#summary-of-proposed-application",
+    "title": "IS415 Group 4",
+    "section": "",
+    "text": "The proposed application is a geospatial analytics tool designed to democratise access to geospatial data and insights about the real estate market in Johor Bahru (JB). Here’s a summary of its functionalities:"
+  },
+  {
+    "objectID": "index.html#key-features",
+    "href": "index.html#key-features",
+    "title": "IS415 Group 4",
+    "section": "",
+    "text": "Employs point plotting and hexagonal grid density calculations to visualise property clusters.\nMaps proximity factors, showing spatial relationships between amenities and property values.\n\n\n\n\n\nCalculates spatial autocorrelation using Moran’s I, Geary’s C, and LISA to identify high-demand (hot) and low-demand (cold) regions.\nHighlights Iskandar Puteri as a hot spot and Pasir Gudang as a cold spot.\n\n\n\n\n\nPerforms regression analysis to determine factors influencing property prices, using geographically weighted regression (GWR).\nAllows users to explore relationships between property prices and amenities interactively."
+  },
+  {
+    "objectID": "index.html#objective",
+    "href": "index.html#objective",
+    "title": "IS415 Group 4",
+    "section": "",
+    "text": "To enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru."
   }
 ]

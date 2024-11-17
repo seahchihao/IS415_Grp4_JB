@@ -7,11 +7,14 @@ website:
     logo: "/images/logo.png"
     title: "JB: The New Frontier?" 
     left:
-      - href: index.qmd
+      - href: index.html
         text: Home
-      - about.qmd
-      - href: project_proposal.qmd
-      - text: Proposal
+      - href: userguide.html
+        text: User Guide
+      - href: "https://chihao.shinyapps.io/is415-grp4-jb/"
+        text: Shiny App
+      - href: poster.html
+        text: Poster
 
 format:
   html:

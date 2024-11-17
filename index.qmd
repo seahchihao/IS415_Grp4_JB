@@ -1,8 +1,57 @@
 ---
-title: "JB: The New Frontier?"
+title: "IS415 Group 4"
+date-modified: last-modified
+language: 
+  title-block-modified: "LAST MODIFIFED DATE"
+author-title: authors
+authors:   
+  - HENG Kuan Xin
+  - SEAH Chi Hao
+  - Kendrick TEO Tze Yu
+format: html
+css: styles.css
 ---
 
-This is IS415 AY24-25T1 Group 4 Project website.
+# JB: The New Frontier? {.center_heading1}
 
-Site is still under construction, do be patient...
+![](/images/logo.png){fig-align="center" width=45%}
 
+<p style="text-align: center;">Welcome to "JB: The New Frontier?"</p>
+
+---
+
+Our project aims to answer the following questions:
+
+- What factors influence the real estate market in Johor Bahru? 
+- How are different housing types clustered?  
+
+## **Context**
+
+**Johor Bahru** (JB) is generally seen as an accessible and low-cost shopping and dining haven for neighbouring Singaporeans. With housing prices skyrocketing of late, many Singaporeans have even turned to JB to seek cheaper housing, driving the local economy but also bringing with them unprecedented inflationary pressures.
+
+---
+
+## **Summary of Proposed Application**
+
+The proposed application is a geospatial analytics tool designed to democratise access to geospatial data and insights about the real estate market in Johor Bahru (JB). Here’s a summary of its functionalities:
+
+---
+
+## **Key Features**
+
+### **1. Exploratory Data Analysis (EDA)**
+- Employs point plotting and hexagonal grid density calculations to visualise property clusters.
+- Maps proximity factors, showing spatial relationships between amenities and property values.
+
+### **2. Hot-and-Cold-Spot Analysis (LISA)**
+- Calculates spatial autocorrelation using Moran's I, Geary’s C, and LISA to identify high-demand (hot) and low-demand (cold) regions.
+- Highlights Iskandar Puteri as a hot spot and Pasir Gudang as a cold spot.
+
+### **3. Hedonic Pricing Model**
+- Performs regression analysis to determine factors influencing property prices, using geographically weighted regression (GWR).
+- Allows users to explore relationships between property prices and amenities interactively.
+
+---
+
+## **Objective**
+To enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru.
