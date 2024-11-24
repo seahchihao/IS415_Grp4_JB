@@ -18,7 +18,8 @@ mytheme <- create_theme(
 ####### Load Data ########
 #========================#
 study_area <- read_rds("data/study_area.rds")
-property <- read_rds("data/property.rds")
+property <- read_rds("data/property.rds") %>% 
+    filter(!`Property Type` %in% c("Flat", "Low-Cost Flat", "Low-Cost House") )
 prox_factor_list <- read_rds("data/amenities.rds")
 
 zoom_limits <- c(10, 25)
@@ -169,9 +170,6 @@ property_data_tab <- tabItem(
                         "Cluster House" = "Cluster House",
                         "Condominium/Apartment" = "Condominium/Apartment",
                         "Detached" = "Detached",
-                        "Flat" = "Flat",
-                        "Low-Cost Flat" = "Low-Cost Flat",
-                        "Low-Cost House" = "Low-Cost House",
                         "Town House" = "Town House"
                     )
                 )
