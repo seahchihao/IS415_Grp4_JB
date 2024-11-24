@@ -77,6 +77,8 @@ During Townhall, where we showcased our application we received some comments an
 - "*Confused on what the 'hedonic' part tell me*"
 - "*As a user/Singaporen, wouldn't I be more interested in the price of property within a region than the factors affecting the price*" -> questioning the relevance of 'hendonic pricing model' to our project objecive
 
+---
+
 Based on the feedback given, we modified our application to be more user friendly and not over complicate too much, to achieve our objective of empowering non-specialists to make better investment decisions in Johor Bahru using geospatial analytics. The following are the changes made in response:
 
 - Allow user to focus on district (Mukim) and analyse the property trends [This addressed the concerns raised by test users on speed and relevance of application to our project objective]
