@@ -1,0 +1,12 @@
+name: is415grp4JB
+title: is415grp4jb
+username: chihao
+account: chihao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13365183
+bundleId:
+url: https://chihao.shinyapps.io/is415grp4JB/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,13 @@
+name: is415-grp4-jb
+title: is415-grp4-jb
+username: chihao
+account: chihao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13365176
+bundleId:
+url: https://chihao.shinyapps.io/is415-grp4-jb/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app-old.R
