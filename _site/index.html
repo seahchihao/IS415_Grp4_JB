@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#jb-the-new-frontier" id="toc-jb-the-new-frontier" class="nav-link active" data-scroll-target="#jb-the-new-frontier">JB: The New Frontier?</a>
   <ul class="collapse">
   <li><a href="#context" id="toc-context" class="nav-link" data-scroll-target="#context"><strong>Context</strong></a></li>
-  <li><a href="#summary-of-proposed-application" id="toc-summary-of-proposed-application" class="nav-link" data-scroll-target="#summary-of-proposed-application"><strong>Summary of Proposed Application</strong></a></li>
+  <li><a href="#summary-of-application" id="toc-summary-of-application" class="nav-link" data-scroll-target="#summary-of-application"><strong>Summary of Application</strong></a></li>
   <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features"><strong>Key Features</strong></a>
   <ul class="collapse">
   <li><a href="#exploratory-data-analysis-eda" id="toc-exploratory-data-analysis-eda" class="nav-link" data-scroll-target="#exploratory-data-analysis-eda"><strong>1. Exploratory Data Analysis (EDA)</strong></a></li>
@@ -138,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decision-making-support" id="toc-decision-making-support" class="nav-link" data-scroll-target="#decision-making-support"><strong>3. Decision-Making Support</strong></a></li>
   </ul></li>
   <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective"><strong>Objective</strong></a></li>
+  <li><a href="#changes-made" id="toc-changes-made" class="nav-link" data-scroll-target="#changes-made"><strong>Changes made</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -199,8 +200,8 @@ Welcome to “JB: The New Frontier?”
 <p><strong>Johor Bahru</strong> (JB) is generally seen as an accessible and low-cost shopping and dining haven for neighbouring Singaporeans. With housing prices skyrocketing of late, many Singaporeans have even turned to JB to seek cheaper housing, driving the local economy but also bringing with them unprecedented inflationary pressures.</p>
 <hr>
 </section>
-<section id="summary-of-proposed-application" class="level2">
-<h2 class="anchored" data-anchor-id="summary-of-proposed-application"><strong>Summary of Proposed Application</strong></h2>
+<section id="summary-of-application" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-application"><strong>Summary of Application</strong></h2>
 <p>The <strong>JB: The New Frontier?</strong> application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.</p>
 <hr>
 </section>
@@ -237,6 +238,22 @@ Welcome to “JB: The New Frontier?”
 <section id="objective" class="level2">
 <h2 class="anchored" data-anchor-id="objective"><strong>Objective</strong></h2>
 <p>To enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru.</p>
+<hr>
+</section>
+<section id="changes-made" class="level2">
+<h2 class="anchored" data-anchor-id="changes-made"><strong>Changes made</strong></h2>
+<p>During Townhall, where we showcased our application we received some comments and recommendations by our peers and member of the public, below are some of the concerns:</p>
+<ul>
+<li>“App takes a very long time to load”</li>
+<li>“When buying a property, I would have already considered roughly where I want to buy. Comparing against the whole JB seems irrelevant.”</li>
+<li>“Confused on what the ‘hedonic’ part tell me”</li>
+</ul>
+<p>Based on the feedback given, we modified our application to be more user friendly and not over complicate too much, to achieve our objective of empowering non-specialists to make better investment decisions in Johor Bahru using geospatial analytics. The following are the changes made in response:</p>
+<ul>
+<li>Allow user to focus on district (Mukim) and analyse the property trends [This not only shorten the for the processing of the app, it also addressed the concern raised by a potential user]</li>
+<li>Removed the Hendonic pricing model and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. To allow user to make use of the analysis for more informed decision when buying a property in JB</li>
+<li>Changes to the user interface of the application, making the application more user friendly, even for first-time low technical proficiency user.</li>
+</ul>
 
 
 </section>
