@@ -11,7 +11,7 @@ website:
         text: Home
       - href: userguide.html
         text: User Guide
-      - href: "https://is415-geoanalyticswithkendrick.shinyapps.io/JBFrontier/"
+      - href: "https://is415-geoanalyticswithkendrick.shinyapps.io/JBTheNewFrontier/"
         text: Shiny App
       - href: poster.html
         text: Poster
