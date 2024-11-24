@@ -1,9 +1,19 @@
 ---
-title: "About"
+title: "About us"
 ---
 
-About this site
+We are a group of students from Singapore Management University (SMU).
 
-```{r}
-1 + 1
-```
+This website contains the entirety of our project, done by us with the guidance of our Professor for IS415: Geospatial Analytics and Applications.
+
+Connect with us on LinkedIn (by clicking on our faces😊):
+
+<p style="text-align: center;">
+[![](/images/mugshots/chihao.png){width=25%}](https://www.linkedin.com/in/seahchihao)
+[![](/images/mugshots/kuanxin.png){width=25%}](https://www.linkedin.com/in/heng-kuan-xin/)
+[![](/images/mugshots/kendrick.png){width=25%}](https://www.linkedin.com/in/kendricktty/)
+</p>
+
+This whole project wouldn't be possible if not for the guidance and mentoring by the one and only Prof. Kam Tin Seong.
+
+[![](/images/mugshots/prof.png){fig-align="center" width=25%}](https://faculty.smu.edu.sg/profile/kam-tin-seong-486)

@@ -15,6 +15,9 @@ website:
         text: Shiny App
       - href: poster.html
         text: Poster
+    right:
+      - href: about.html
+        text: About us
 
 format:
   html:
