@@ -33,8 +33,12 @@ Our project aims to answer the following questions:
 
 ## **Summary of Application**
 
-The ***JB: The New Frontier?*** application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.
+The ***JB: The New Frontier?*** application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia, and the neighbouring suburb of Kulai to the north. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.
 
+---
+
+## **Objective**
+To enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru.
 
 ---
 
@@ -60,13 +64,18 @@ The ***JB: The New Frontier?*** application is a Shiny web-based tool designed t
 - **User-Friendly Interface**: Intuitive navigation tabs to simplify the exploration of property and POI data.
 - **Actionable Insights**: Provide data-driven recommendations to help users make well-informed property purchase decisions.
 
-
 ---
 
-## **Objective**
-To enable non-specialists to use geospatial analytics to understand and predict real estate trends, empowering better investment decisions in Johor Bahru.
+## **Data and Methodology**
 
----
+The following datasets were used for this prototype:
+
+| Data | Description | Source | Processing method/tool used |
+| -----| ----------- | ------ | --------------------------- |
+| Johor Bahru, Malaysia Mukim boundary data | Geographical boundary data for Mukims in Johor Bahru and Kulai | [United Nations Humanitarian Data Exchange](https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-malaysia) (from [geoBoundaries](https://www.geoboundaries.org/simplifiedDownloads.html)) | Filtered away all districts except Johor Bahru and Kulai |
+| Point of interest (POI) data | Nearby amenities, such as schools, parks, shopping malls and CIQ checkpoints, to properties | [OpenStreetMap](https://download.geofabrik.de/asia/malaysia-singapore-brunei.html) | [OSM Overpass Turbo API](https://overpass-turbo.eu/) was used to extract POI data for Johor Bahru and Kulai |
+| Property transaction data, 2023-2024 | Property transaction data for Johor Bahru and Kulai | [Portal Pusat Maklumat Harta Tanah Negara](https://napic2.jpph.gov.my/ms/data-transaksi) - Department of Valuation and Property Services, Malaysia | Extract relevant data within Johor Bahru and Kulai, drop null values 
+
 
 ## **Changes made (based on feedback received)**
 During a townhall presentation on 18 November 2024, we received some feedback and recommendations by our peers and members of the public, such as the following:
@@ -75,7 +84,7 @@ During a townhall presentation on 18 November 2024, we received some feedback an
 - "*When buying a property, I would have already considered roughly where I want to buy.*"
 - "*Comparing against the whole JB seems irrelevant...*"
 - "*Confused on what the 'hedonic' part tell me*"
-- "*As a user/Singaporean, wouldn't I be more interested in the price of property within a region than the factors affecting the price*" -> questioning the relevance of 'hendonic pricing model' to our project objecive
+- "*As a user/Singaporean, wouldn't I be more interested in the price of property within a region than the factors affecting the price*" -> questioning the relevance of 'hendonic pricing model' to our project objective
 
 ---
 
@@ -84,3 +93,10 @@ Based on the feedback given, we modified our application to be more user friendl
 - Allow user to filter by district (Mukim) and analyse the property trends [This addressed the concerns raised by test users on speed and relevance of application to our project objective]
 - Removed the Hendonic pricing model and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. [To allow user to make use of the analysis for more informed decision when buying a property in JB]
 - Changes to the user interface of the application to make the application more user friendly, even for first-time and low technical proficiency users.
+
+---
+
+# **Brief Conclusion**
+
+Property prices within Johor Bahru are at their highest closer to the economic centres of Iskandar Puteri (within the mukim of Pulai) and Bandar Johor Bahru where the causeway is located. Based on the hedonic pricing model, proximity to schools, unlike in Singapore, turned out not to have a significant impact on property prices in Johor Bahru.
+
