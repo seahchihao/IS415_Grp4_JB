@@ -71,12 +71,14 @@ To enable non-specialists to use geospatial analytics to understand and predict 
 ## **Changes made (based on feedbacks received)**
 During Townhall, where we showcased our application we received some comments and recommendations by our peers and member of the public, below are some of the concerns:
 
-- "App takes a very long time to load"
-- "When buying a property, I would have already considered roughly where I want to buy. Comparing against the whole JB seems irrelevant."
-- "Confused on what the 'hedonic' part tell me"
+- "*App takes a very long time to load*"
+- "*When buying a property, I would have already considered roughly where I want to buy.*"
+- "*Comparing against the whole JB seems irrelevant...*"
+- "*Confused on what the 'hedonic' part tell me*"
+- "*As a user/Singaporen, wouldn't I be more interested in the price of property within a region than the factors affecting the price*" -> questioning the relevance of 'hendonic pricing model' to our project objecive
 
 Based on the feedback given, we modified our application to be more user friendly and not over complicate too much, to achieve our objective of empowering non-specialists to make better investment decisions in Johor Bahru using geospatial analytics. The following are the changes made in response:
 
-- Allow user to focus on district (Mukim) and analyse the property trends [This not only shorten the for the processing of the app, it also addressed the concern raised by a potential user]
+- Allow user to focus on district (Mukim) and analyse the property trends [This addressed the concerns raised by test users on speed and relevance of application to our project objective]
 - Removed the Hendonic pricing model and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. To allow user to make use of the analysis for more informed decision when buying a property in JB
 - Changes to the user interface of the application, making the application more user friendly, even for first-time low technical proficiency user. 
