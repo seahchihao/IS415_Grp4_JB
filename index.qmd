@@ -33,23 +33,33 @@ Our project aims to answer the following questions:
 
 ## **Summary of Proposed Application**
 
-The proposed application is a geospatial analytics tool designed to democratise access to geospatial data and insights about the real estate market in Johor Bahru (JB). Here’s a summary of its functionalities:
+The **JB: The New Frontier?** application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.
+
 
 ---
 
 ## **Key Features**
 
 ### **1. Exploratory Data Analysis (EDA)**
-- Employs point plotting and hexagonal grid density calculations to visualise property clusters.
-- Maps proximity factors, showing spatial relationships between amenities and property values.
 
-### **2. Hot-and-Cold-Spot Analysis (LISA)**
-- Calculates spatial autocorrelation using Moran's I, Geary’s C, and LISA to identify high-demand (hot) and low-demand (cold) regions.
-- Highlights Iskandar Puteri as a hot spot and Pasir Gudang as a cold spot.
+- **Interactive Maps**: Visualise property prices and distribution using various mapping techniques, including base maps, hexagon grids, and local statistical analysis.
+- **POI Mapping**: Filter and analyse Point of Interests (POIs) by category to assess proximity factors influencing property prices.
+- **Property Data Overview**: Explore detailed property transaction data, including type, price, and location.
+- **Geospatial Insights**: Leverage tools like Local Moran and Local Gi for understanding spatial dependencies and identifying clusters.
 
-### **3. Hedonic Pricing Model**
-- Performs regression analysis to determine factors influencing property prices, using geographically weighted regression (GWR).
-- Allows users to explore relationships between property prices and amenities interactively.
+### **2. Property Price Analysis**
+
+- **Base Map Features**: View property prices classified by methods and currency preferences, with additional property-specific information available via interactive clicks.
+- **Hexagon Grid Analysis**: Break down districts into smaller regions to analyse property density and price metrics (mean, median, maximum).
+- **Spatial Statistics**: Use Local Moran and Gi analyses to detect significant clusters and hotspots of property pricing trends.
+- **Customisable Filters**: Narrow down analysis to specific property types or regions of interest for focused insights.
+
+### **3. Decision-Making Support**
+
+- **District Comparison**: Compare property prices and amenities across districts to evaluate potential purchase locations.
+- **User-Friendly Interface**: Intuitive navigation tabs to simplify the exploration of property and POI data.
+- **Actionable Insights**: Provide data-driven recommendations to help users make well-informed property purchase decisions.
+
 
 ---
 

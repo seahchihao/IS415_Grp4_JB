@@ -134,8 +134,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features"><strong>Key Features</strong></a>
   <ul class="collapse">
   <li><a href="#exploratory-data-analysis-eda" id="toc-exploratory-data-analysis-eda" class="nav-link" data-scroll-target="#exploratory-data-analysis-eda"><strong>1. Exploratory Data Analysis (EDA)</strong></a></li>
-  <li><a href="#hot-and-cold-spot-analysis-lisa" id="toc-hot-and-cold-spot-analysis-lisa" class="nav-link" data-scroll-target="#hot-and-cold-spot-analysis-lisa"><strong>2. Hot-and-Cold-Spot Analysis (LISA)</strong></a></li>
-  <li><a href="#hedonic-pricing-model" id="toc-hedonic-pricing-model" class="nav-link" data-scroll-target="#hedonic-pricing-model"><strong>3. Hedonic Pricing Model</strong></a></li>
+  <li><a href="#property-price-analysis" id="toc-property-price-analysis" class="nav-link" data-scroll-target="#property-price-analysis"><strong>2. Property Price Analysis</strong></a></li>
+  <li><a href="#decision-making-support" id="toc-decision-making-support" class="nav-link" data-scroll-target="#decision-making-support"><strong>3. Decision-Making Support</strong></a></li>
   </ul></li>
   <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective"><strong>Objective</strong></a></li>
   </ul></li>
@@ -167,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">LAST MODIFIFED DATE</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 18, 2024</p>
+      <p class="date-modified">November 24, 2024</p>
     </div>
   </div>
     
@@ -201,7 +201,7 @@ Welcome to “JB: The New Frontier?”
 </section>
 <section id="summary-of-proposed-application" class="level2">
 <h2 class="anchored" data-anchor-id="summary-of-proposed-application"><strong>Summary of Proposed Application</strong></h2>
-<p>The proposed application is a geospatial analytics tool designed to democratise access to geospatial data and insights about the real estate market in Johor Bahru (JB). Here’s a summary of its functionalities:</p>
+<p>The <strong>JB: The New Frontier?</strong> application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.</p>
 <hr>
 </section>
 <section id="key-features" class="level2">
@@ -209,22 +209,27 @@ Welcome to “JB: The New Frontier?”
 <section id="exploratory-data-analysis-eda" class="level3">
 <h3 class="anchored" data-anchor-id="exploratory-data-analysis-eda"><strong>1. Exploratory Data Analysis (EDA)</strong></h3>
 <ul>
-<li>Employs point plotting and hexagonal grid density calculations to visualise property clusters.</li>
-<li>Maps proximity factors, showing spatial relationships between amenities and property values.</li>
+<li><strong>Interactive Maps</strong>: Visualise property prices and distribution using various mapping techniques, including base maps, hexagon grids, and local statistical analysis.</li>
+<li><strong>POI Mapping</strong>: Filter and analyse Point of Interests (POIs) by category to assess proximity factors influencing property prices.</li>
+<li><strong>Property Data Overview</strong>: Explore detailed property transaction data, including type, price, and location.</li>
+<li><strong>Geospatial Insights</strong>: Leverage tools like Local Moran and Local Gi for understanding spatial dependencies and identifying clusters.</li>
 </ul>
 </section>
-<section id="hot-and-cold-spot-analysis-lisa" class="level3">
-<h3 class="anchored" data-anchor-id="hot-and-cold-spot-analysis-lisa"><strong>2. Hot-and-Cold-Spot Analysis (LISA)</strong></h3>
+<section id="property-price-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="property-price-analysis"><strong>2. Property Price Analysis</strong></h3>
 <ul>
-<li>Calculates spatial autocorrelation using Moran’s I, Geary’s C, and LISA to identify high-demand (hot) and low-demand (cold) regions.</li>
-<li>Highlights Iskandar Puteri as a hot spot and Pasir Gudang as a cold spot.</li>
+<li><strong>Base Map Features</strong>: View property prices classified by methods and currency preferences, with additional property-specific information available via interactive clicks.</li>
+<li><strong>Hexagon Grid Analysis</strong>: Break down districts into smaller regions to analyse property density and price metrics (mean, median, maximum).</li>
+<li><strong>Spatial Statistics</strong>: Use Local Moran and Gi analyses to detect significant clusters and hotspots of property pricing trends.</li>
+<li><strong>Customisable Filters</strong>: Narrow down analysis to specific property types or regions of interest for focused insights.</li>
 </ul>
 </section>
-<section id="hedonic-pricing-model" class="level3">
-<h3 class="anchored" data-anchor-id="hedonic-pricing-model"><strong>3. Hedonic Pricing Model</strong></h3>
+<section id="decision-making-support" class="level3">
+<h3 class="anchored" data-anchor-id="decision-making-support"><strong>3. Decision-Making Support</strong></h3>
 <ul>
-<li>Performs regression analysis to determine factors influencing property prices, using geographically weighted regression (GWR).</li>
-<li>Allows users to explore relationships between property prices and amenities interactively.</li>
+<li><strong>District Comparison</strong>: Compare property prices and amenities across districts to evaluate potential purchase locations.</li>
+<li><strong>User-Friendly Interface</strong>: Intuitive navigation tabs to simplify the exploration of property and POI data.</li>
+<li><strong>Actionable Insights</strong>: Provide data-driven recommendations to help users make well-informed property purchase decisions.</li>
 </ul>
 <hr>
 </section>
