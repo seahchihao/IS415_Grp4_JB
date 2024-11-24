@@ -33,7 +33,7 @@ Our project aims to answer the following questions:
 
 ## **Summary of Application**
 
-The **JB: The New Frontier?** application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.
+The ***JB: The New Frontier?*** application is a Shiny web-based tool designed to assist users in analysing property prices and Points of Interest (POIs) within Johor Bahru, Malaysia. By integrating geospatial data and interactive visualisations, the application enables users to explore property price patterns, assess their proximity to key amenities, and make well-informed decisions about property purchases. With features like base maps, hexagon grid analysis, and spatial statistical tools, users can identify districts of interest, uncover pricing trends, and evaluate properties based on type, price, and accessibility. This comprehensive platform ensures a data-driven approach to property investment in JB.
 
 
 ---
