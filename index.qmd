@@ -76,9 +76,25 @@ The following datasets were used for this prototype:
 | Point of interest (POI) data | Nearby amenities, such as schools, parks, shopping malls and CIQ checkpoints, to properties | [OpenStreetMap](https://download.geofabrik.de/asia/malaysia-singapore-brunei.html) | [OSM Overpass Turbo API](https://overpass-turbo.eu/) was used to extract POI data for Johor Bahru and Kulai |
 | Property transaction data, 2023-2024 | Property transaction data for Johor Bahru and Kulai | [Portal Pusat Maklumat Harta Tanah Negara](https://napic2.jpph.gov.my/ms/data-transaksi) - Department of Valuation and Property Services, Malaysia | Extract relevant data within Johor Bahru and Kulai, drop null values 
 
+The following analyses were performed:
 
-## **Changes made (based on feedback received)**
-During a townhall presentation on 18 November 2024, we received some feedback and recommendations by our peers and members of the public, such as the following:
+- Exploratory data analysis (EDA): to visualise and easily understand the datasets to work with.
+- Hexagonal grid density calculation: for easier calculation of Local Moran's I and Local Gi* statistics.
+- Local Moran's I and LISA analysis: to discover locations with higher and lower aggregated property prices.
+- Hedonic pricing model: to discover and analyse the impact of different nearby amenities on property prices in JB.
+
+See the [poster](poster.qmd) for more details.
+
+---
+
+## **Results in brief**
+
+Property prices within Johor Bahru are at their highest closer to the economic centres of Iskandar Puteri (within the mukim of Pulai) and Bandar Johor Bahru where the causeway is located. Based on the hedonic pricing model, proximity to schools, unlike in Singapore, turned out not to have a significant impact on property prices in Johor Bahru.
+
+---
+
+## **Changes made since townhall presentation**
+During a townhall presentation on 18 November 2024, we received some feedback and recommendations by our peers and members of the public, including the following:
 
 - "*App takes a very long time to load*"
 - "*When buying a property, I would have already considered roughly where I want to buy.*"
@@ -90,13 +106,7 @@ During a townhall presentation on 18 November 2024, we received some feedback an
 
 Based on the feedback given, we modified our application to be more user friendly and less complex, to achieve our objective of empowering non-specialists to make better investment decisions in Johor Bahru using geospatial analytics. The following are the changes made in response:
 
-- Allow user to filter by district (Mukim) and analyse the property trends [This addressed the concerns raised by test users on speed and relevance of application to our project objective]
-- Removed the Hendonic pricing model and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. [To allow user to make use of the analysis for more informed decision when buying a property in JB]
+- Have users view local Moran's I and local Gi* statistics as filtered by Mukim rather than for the entire map. This addresses concerns raised by test users on loading speed and relevance of our application to our project objective
+- Removal of the hedonic pricing model from the application and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. This allows users to make use of the analysis for more informed decisions when buying a property in JB
 - Changes to the user interface of the application to make the application more user friendly, even for first-time and low technical proficiency users.
-
----
-
-# **Brief Conclusion**
-
-Property prices within Johor Bahru are at their highest closer to the economic centres of Iskandar Puteri (within the mukim of Pulai) and Bandar Johor Bahru where the causeway is located. Based on the hedonic pricing model, proximity to schools, unlike in Singapore, turned out not to have a significant impact on property prices in Johor Bahru.
 

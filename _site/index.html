@@ -145,9 +145,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decision-making-support" id="toc-decision-making-support" class="nav-link" data-scroll-target="#decision-making-support"><strong>3. Decision-Making Support</strong></a></li>
   </ul></li>
   <li><a href="#data-and-methodology" id="toc-data-and-methodology" class="nav-link" data-scroll-target="#data-and-methodology"><strong>Data and Methodology</strong></a></li>
-  <li><a href="#changes-made-based-on-feedback-received" id="toc-changes-made-based-on-feedback-received" class="nav-link" data-scroll-target="#changes-made-based-on-feedback-received"><strong>Changes made (based on feedback received)</strong></a></li>
+  <li><a href="#results-in-brief" id="toc-results-in-brief" class="nav-link" data-scroll-target="#results-in-brief"><strong>Results in brief</strong></a></li>
+  <li><a href="#changes-made-since-townhall-presentation" id="toc-changes-made-since-townhall-presentation" class="nav-link" data-scroll-target="#changes-made-since-townhall-presentation"><strong>Changes made since townhall presentation</strong></a></li>
   </ul></li>
-  <li><a href="#brief-conclusion" id="toc-brief-conclusion" class="nav-link" data-scroll-target="#brief-conclusion"><strong>Brief Conclusion</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -281,10 +281,24 @@ Welcome to “JB: The New Frontier?”
 </tr>
 </tbody>
 </table>
+<p>The following analyses were performed:</p>
+<ul>
+<li>Exploratory data analysis (EDA): to visualise and easily understand the datasets to work with.</li>
+<li>Hexagonal grid density calculation: for easier calculation of Local Moran’s I and Local Gi* statistics.</li>
+<li>Local Moran’s I and LISA analysis: to discover locations with higher and lower aggregated property prices.</li>
+<li>Hedonic pricing model: to discover and analyse the impact of different nearby amenities on property prices in JB.</li>
+</ul>
+<p>See the <a href="./poster.html">poster</a> for more details.</p>
+<hr>
 </section>
-<section id="changes-made-based-on-feedback-received" class="level2">
-<h2 class="anchored" data-anchor-id="changes-made-based-on-feedback-received"><strong>Changes made (based on feedback received)</strong></h2>
-<p>During a townhall presentation on 18 November 2024, we received some feedback and recommendations by our peers and members of the public, such as the following:</p>
+<section id="results-in-brief" class="level2">
+<h2 class="anchored" data-anchor-id="results-in-brief"><strong>Results in brief</strong></h2>
+<p>Property prices within Johor Bahru are at their highest closer to the economic centres of Iskandar Puteri (within the mukim of Pulai) and Bandar Johor Bahru where the causeway is located. Based on the hedonic pricing model, proximity to schools, unlike in Singapore, turned out not to have a significant impact on property prices in Johor Bahru.</p>
+<hr>
+</section>
+<section id="changes-made-since-townhall-presentation" class="level2">
+<h2 class="anchored" data-anchor-id="changes-made-since-townhall-presentation"><strong>Changes made since townhall presentation</strong></h2>
+<p>During a townhall presentation on 18 November 2024, we received some feedback and recommendations by our peers and members of the public, including the following:</p>
 <ul>
 <li>“<em>App takes a very long time to load</em>”</li>
 <li>“<em>When buying a property, I would have already considered roughly where I want to buy.</em>”</li>
@@ -295,18 +309,13 @@ Welcome to “JB: The New Frontier?”
 <hr>
 <p>Based on the feedback given, we modified our application to be more user friendly and less complex, to achieve our objective of empowering non-specialists to make better investment decisions in Johor Bahru using geospatial analytics. The following are the changes made in response:</p>
 <ul>
-<li>Allow user to filter by district (Mukim) and analyse the property trends [This addressed the concerns raised by test users on speed and relevance of application to our project objective]</li>
-<li>Removed the Hendonic pricing model and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. [To allow user to make use of the analysis for more informed decision when buying a property in JB]</li>
+<li>Have users view local Moran’s I and local Gi* statistics as filtered by Mukim rather than for the entire map. This addresses concerns raised by test users on loading speed and relevance of our application to our project objective</li>
+<li>Removal of the hedonic pricing model from the application and focusing more on the explanatory analysis of Exploratory Spatial Data Analysis (EDSA), Local Indicators of Spatial Association (LISA) and Hot and Cold Spot Analysis. This allows users to make use of the analysis for more informed decisions when buying a property in JB</li>
 <li>Changes to the user interface of the application to make the application more user friendly, even for first-time and low technical proficiency users.</li>
 </ul>
-<hr>
-</section>
-</section>
-<section id="brief-conclusion" class="level1">
-<h1><strong>Brief Conclusion</strong></h1>
-<p>Property prices within Johor Bahru are at their highest closer to the economic centres of Iskandar Puteri (within the mukim of Pulai) and Bandar Johor Bahru where the causeway is located. Based on the hedonic pricing model, proximity to schools, unlike in Singapore, turned out not to have a significant impact on property prices in Johor Bahru.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
