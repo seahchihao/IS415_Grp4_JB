@@ -68,7 +68,7 @@ To enable non-specialists to use geospatial analytics to understand and predict 
 
 ---
 
-## **Changes made**
+## **Changes made (based on feedbacks received)**
 During Townhall, where we showcased our application we received some comments and recommendations by our peers and member of the public, below are some of the concerns:
 
 - "App takes a very long time to load"
