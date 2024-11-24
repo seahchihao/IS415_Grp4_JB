@@ -9,8 +9,8 @@ website:
     left:
       - href: index.html
         text: Home
-#      - href: userguide.html
-#        text: User Guide
+      - href: userguide.html
+        text: User Guide
       - href: "https://chihao.shinyapps.io/is415-grp4-jb/"
         text: Shiny App
       - href: poster.html
